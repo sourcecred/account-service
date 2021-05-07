@@ -1,0 +1,20 @@
+{
+  "name": "account-service",
+  "version": "0.0.0",
+  "description": "A set of lambdas for managing identities",
+  "main": "''",
+  "repository": "git@github.com:sourcecred/account-service.git",
+  "author": "''",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "netlify-lambda": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "dependencies": {
+    "sourcecred": "^0.8.5"
+  }
+}
